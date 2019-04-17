@@ -29,12 +29,12 @@ alias lla="ls -Alh"
 alias llaa="ls -alh"
 
 # git
-alias gst="git status"
-alias ga="git add"
-alias gc="git commit -s -m"
-alias gp="git push"
-alias gl="git pull"
-alias gres="git checkout --"
+alias gitstatus="git status"
+alias gitadd="git add"
+alias gitcommit="git commit -m"
+alias gitpush="git push"
+alias gitpull="git pull"
+alias gitrestore="git checkout --"
 
 # matrix
 alias unimatrix="xterm -maximized -e unimatrix"
