@@ -4,15 +4,14 @@
 
 URxvt*termName: rxvt-256color
 
-URxvt.font: xft:Menlo:size=12, xft:Inconsolata:size=12
-XTerm.vt100.faceName: Hack:size=10
+URxvt.font: xft:Hack:size=12, xft:Inconsolata:size=12
+XTerm.vt100.faceName: Hack:size=11
 
 URxvt.depth: 32
 URxvt.letterSpace: -1
-URxvt.internalBorder: 35
 
 ! Window size when launching
-URxvt*geometry: 80x25
+URxvt*geometry: 100x35
 XTerm.vt100.geometry: 100x35
 
 ! Disable scrollbar
@@ -34,9 +33,6 @@ URxvt.secondaryWheel: 1
 
 URxvt.perl-ext:
 URxvt.perl-ext-common:
-!URxvt.keysym.Shift-Control-C: perl:clipboard:copy
-!URxvt.keysym.Shift-Control-V: perl:clipboard:paste
-!URxvt.clipboard.autocopy: true
 
 ! Colors
 URxvt*background:   [97]#1c212c
