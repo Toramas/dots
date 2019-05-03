@@ -37,12 +37,5 @@ alias gitpull="git pull"
 alias gitrestore="git checkout --"
 
 # matrix
-alias unimatrix="xterm -maximized -e unimatrix"
 alias cmatrix="unimatrix -a -s 96 -l o"
 alias matrix="unimatrix -a -f -s 96 -l aAnnnPPPkkCcgG"
-
-# gtop
-alias gtop="xterm -maximized -e gtop"
-
-# vim
-alias vim="xterm -maximized -e vim"
