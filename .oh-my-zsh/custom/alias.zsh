@@ -39,3 +39,6 @@ alias gitrestore="git checkout --"
 # matrix
 alias cmatrix="unimatrix -a -s 96 -l o"
 alias matrix="unimatrix -a -f -s 96 -l aAnnnPPPkkCcgG"
+
+# applications
+alias godot="~/Applications/Godot_3.1/Godot_v3.1-stable_x11.64"
