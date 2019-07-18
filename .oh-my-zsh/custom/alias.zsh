@@ -14,12 +14,6 @@ alias Xresources="vim ~/.Xresources"
 # Vim config
 alias vimconfig="vim ~/.vimrc"
 
-# file
-alias ...="../.."
-alias ....="../../.."
-alias .....="../../../.."
-alias ......="../../../../.."
-
 # ls
 alias ls="ls --color=tty"
 alias ll="ls -lh"
@@ -41,4 +35,4 @@ alias cmatrix="unimatrix -a -s 96 -l o"
 alias matrix="unimatrix -a -f -s 96 -l aAnnnPPPkkCcgG"
 
 # applications
-alias godot="~/Applications/Godot_3.1/Godot_v3.1-stable_x11.64"
+alias godot="~/Applications/Godot_3.1/Godot_v3.1.1-stable_x11.64"
