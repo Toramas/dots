@@ -1,58 +1,43 @@
-! ******************
-! urxvt config
-! ******************
-
-URxvt*termName: rxvt-256color
-
-URxvt.font: xft:Hack:size=12, xft:Inconsolata:size=12
-XTerm.vt100.faceName: Hack:size=11
-
-URxvt.depth: 32
-URxvt.letterSpace: -1
-
-! Window size when launching
-URxvt*geometry: 100x35
-XTerm.vt100.geometry: 100x35
-
-! Disable scrollbar
-URxvt*scrollBar: false
+XTerm.termName: xterm-256color
 XTerm.vt100.scrollBar: false
+XTerm.vt100.geometry: 80x32
+XTerm.vt100.faceName: Hack:size=10
 
-! do not scroll with output
-URxvt*scrollTtyOutput: false
+! [Colors]
 
-! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
-URxvt*scrollWithBuffer: true
+! special
+*.foreground:   #f8f8f2
+*.background:   #272822
+*.cursorColor:  #f8f8f2
 
-! scroll back to the bottom on keypress
-URxvt*scrollTtyKeypress: true
+! black
+*.color0:       #272822
+*.color8:       #75715e
 
-URxvt.secondaryScreen: 1
-URxvt.secondaryScroll: 0
-URxvt.secondaryWheel: 1
+! red
+*.color1:       #f92672
+*.color9:       #f92672
 
-URxvt.perl-ext:
-URxvt.perl-ext-common:
+! green
+*.color2:       #a6e22e
+*.color10:      #a6e22e
 
-! Colors
-URxvt*background:   [97]#1c212c
-XTerm*background:   #1c212c
-*foreground:   #eff0eb
-*cursorColor:  #9aedfe
+! yellow
+*.color3:       #f4bf75
+*.color11:      #f4bf75
 
-*color0:      #33303b
-*color8:      #4f4b58
-*color1:      #ff5c57
-*color9:      #ff5c57
-*color2:      #5af78e
-*color10:     #5af78e
-*color3:      #f3f99d
-*color11:     #f3f99d
-*color4:      #57c7ff
-*color12:     #57c7ff
-*color5:      #ff6ac1
-*color13:     #ff6ac1
-*color6:      #9aedfe
-*color14:     #9aedfe
-*color7:      #eff0eb
-*color15:     #eff0eb
+! blue
+*.color4:       #66d9ef
+*.color12:      #66d9ef
+
+! magenta
+*.color5:       #ae81ff
+*.color13:      #ae81ff
+
+! cyan
+*.color6:       #a1efe4
+*.color14:      #a1efe4
+
+! white
+*.color7:       #f8f8f2
+*.color15:      #f9f8f5
