@@ -1,3 +1,3 @@
 # .dots
 
-Github repository to save my dotfiles and config files
+My dotfiles and config files
