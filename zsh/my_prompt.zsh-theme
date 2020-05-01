@@ -84,4 +84,4 @@ PROMPT='
 %{$fg[yellow]%}%B%m%b%{$reset_color%} %{$fg[red]%}%(5~|…/%3~|%4~)%{$reset_color%} $(git_prompt_short_sha)$(git_prompt_info)
 $(prompt_char) '
 
-RPROMPT='$(git_time_since_commit)$(git_prompt_status)${return_status}%{$reset_color%}'
+RPROMPT='$(git_time_since_commit)$(git_prompt_status) ${return_status}%{$reset_color%}'
