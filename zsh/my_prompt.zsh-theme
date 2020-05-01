@@ -22,7 +22,7 @@ ZSH_THEME_GIT_PROMPT_STASHED="%{$fg[yellow]%} $"
 ZSH_THEME_GIT_PROMPT_SHA_BEFORE="-> %{$fg_bold[yellow]%}"
 ZSH_THEME_GIT_PROMPT_SHA_AFTER="%{$reset_color%}"
 
-PROMPT_SYMBOL="%Bλ%b"
+PROMPT_SYMBOL="%B λ%b"
 
 function prompt_char() {
   echo "%(?.%F{green}${PROMPT_SYMBOL}%f.%F{red}${PROMPT_SYMBOL}%f)"
