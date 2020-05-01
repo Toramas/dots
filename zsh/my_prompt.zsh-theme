@@ -1,7 +1,7 @@
 # my_prompt.zsh-theme, variant of smt
 
 MODE_INDICATOR="%{$fg_bold[red]%}❮%{$reset_color%}%{$fg[red]%}❮❮%{$reset_color%}"
-local return_status="%{$fg[red]%}%(?. . %B%S  %?  %s%b)%{$reset_color%}"
+local return_status="%{$fg[red]%}%(?.. %B%S  %?  %s%b)%{$reset_color%}"
 
 ZSH_THEME_GIT_PROMPT_PREFIX="|"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
