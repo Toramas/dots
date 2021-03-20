@@ -1,6 +1,0 @@
-configuration {
-    theme: "cyberpunk-skater";
-    modi: "drun,run,window";
-}
-
-/* vim:ft=css
